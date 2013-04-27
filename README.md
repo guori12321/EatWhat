@@ -1,6 +1,8 @@
 EatWhat
 =======
 
+**This is the dev branch.**
+
 ## A Brief Introduction
 A Renren App, to help you figure what to eat today~
 
