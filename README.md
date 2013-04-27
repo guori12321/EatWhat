@@ -1,7 +1,5 @@
 EatWhat
 =======
-**This is the master branch.**
-
 **This is the dev branch.**
 
 ## A Brief Introduction
