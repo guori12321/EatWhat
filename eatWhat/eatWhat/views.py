@@ -2,7 +2,7 @@ from django.http import HttpResponse
 import views
 
 from django.http import Http404, HttpResponse
-import datetime
+import views
 
 
 def hello(request):
