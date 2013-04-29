@@ -1,13 +1,14 @@
 from django.conf.urls.defaults import *
-from eatWhat.views import hello,current_datetime
+from eatWhat.views import hello
+#,current_datetime
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-	('^hello/$',hello),
-	('^time/$',current_datetime),
-	(r'^time/plus/(\d{1,2})/$',hour_ahead),
+	('^$',hello),
+#	('^time/$',current_datetime),
+#	(r'^time/plus/(\d{1,2})/$',hour_ahead),
     # Examples:
     # url(r'^$', 'eatWhat.views.home', name='home'),
     # url(r'^eatWhat/', include('eatWhat.foo.urls')),
