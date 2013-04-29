@@ -1,6 +1,5 @@
 from django.conf.urls.defaults import *
-from eatWhat.views import hello
-,current_datetime
+from eatWhat.views import hello,current_datetime
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
